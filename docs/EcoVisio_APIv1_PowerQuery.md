@@ -5,7 +5,6 @@ parent: Guides
 nav_order: 1
 ---
 
-
 # Power BI - EcoCounter API Template
 
 ## Overview

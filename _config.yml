@@ -1,4 +1,4 @@
-title: EcoVisio Docs
+title: Human Dimensions Documentation
 description: Documentation for OSMP Human Dimensions project and workflows
 remote_theme: just-the-docs/just-the-docs
 
@@ -11,3 +11,7 @@ color_scheme: dark
 # Optional: Add a link to your repo in the header
 aux_links:
   "View on GitHub": "https://crleslie.github.io/github_pages_test"
+
+kramdown:
+  input: GFM
+  auto_ids: true
