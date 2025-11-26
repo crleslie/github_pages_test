@@ -1,8 +1,10 @@
-
 ---
 layout: default
-title: EcoVisio PowerQuery Guide
+title: PowerQuery Integration
+parent: Guides
+nav_order: 1
 ---
+
 
 # Power BI - EcoCounter API Template
 

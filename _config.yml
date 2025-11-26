@@ -1,3 +1,13 @@
-title: My Documentation Site
-description: Testing EcoVisio API documentation
-theme: jekyll-theme-cayman  # This is a built-in GitHub theme
+title: EcoVisio Docs
+description: Documentation for OSMP Human Dimensions project and workflows
+remote_theme: just-the-docs/just-the-docs
+
+# Enable the built-in search
+search_enabled: true
+
+# Optional: Color scheme (light or dark)
+color_scheme: dark
+
+# Optional: Add a link to your repo in the header
+aux_links:
+  "View on GitHub": "https://crleslie.github.io/github_pages_test"
