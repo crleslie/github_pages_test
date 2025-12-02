@@ -12,6 +12,5 @@ color_scheme: dark
 aux_links:
   "View on GitHub": "https://crleslie.github.io/github_pages_test"
 
-kramdown:
-  input: GFM
-  auto_ids: true
+# Optional: Enable navigation sidebar
+nav_enabled: true
