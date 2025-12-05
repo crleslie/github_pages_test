@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PowerQuery Integration
+title: EcoVisio PowerQuery Integration
 parent: Guides
 nav_order: 1
 ---
