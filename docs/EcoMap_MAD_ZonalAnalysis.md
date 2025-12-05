@@ -33,7 +33,7 @@ Export the `Management Area Designations - In House` to the local ArcGIS Pro pro
 
 Remove the original layer, keeping only the local copy. Although the symbol in the table of contents shows MADs by Active/Inactive status, this is only being applied at the visual level. To run zonal statistics we need to calculate a field that combines both the `ManagementArea` and `Active` fields. However, the `Active` field is a coded domain of `0 = No` and `1 = Yes` . To concatenate the string domain labels with the `ManagementArea` status we need to extract the domain labels as a temporary variable before concatenating. In the attribute table, right click on any field and select Calculate Field. Set the desired name for the new field `Management Area by Status` and paste the following Arcade code into the code field.
 
-```arcade
+```
 var status = Decode(
     $feature.Active,
     1, ' - Active',
