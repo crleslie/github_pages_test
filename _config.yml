@@ -6,7 +6,7 @@ remote_theme: just-the-docs/just-the-docs
 search_enabled: true
 
 # Optional: Color scheme (light or dark)
-color_scheme: dark
+color_scheme: light
 
 # Optional: Add a link to your repo in the header
 aux_links:
